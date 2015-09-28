@@ -1,11 +1,18 @@
 body{
 	background-color:white;
+	text-align: center;
 }
 
 h1{
 	color:yellow;
+
+ 
 }
 p{
 	color:black;
+	font-family: arial, sans-serif;
 
+}
+#slogan{font-style: italic;
+	color: rgb(000);
 }
