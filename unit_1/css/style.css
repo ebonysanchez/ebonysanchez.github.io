@@ -1,10 +1,12 @@
 body{
-	background-color:white;
+	background-color:#ffffff;
 	text-align: center;
 }
 
 h1{
-	color:yellow;
+	color:#ffff00;
+	text-decoration: underline;
+	font-size: 80px
 
  
 }
