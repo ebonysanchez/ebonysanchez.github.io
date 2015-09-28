@@ -16,3 +16,5 @@ p{
 slogan{font-style: italic;
 	color: #000000;
 }
+ul{text-align: justify;
+font-weight: bold;}
