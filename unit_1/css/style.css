@@ -5,17 +5,14 @@ body{
 
 h1{
 	color:#ffff00;
-	text-decoration: underline;
 	font-size: 100px
 	font-weight:normal;
-
- 
 }
 p{
-	color:black;
-	font-family: arial, sans-serif;
+	color:#000000;
+	font-family: Helvetica , sans-serif;
 
 }
 #slogan{font-style: italic;
-	color: rgb(000);
+	color: #000000;
 }
