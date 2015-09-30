@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-	color:#ffff00;
+	color:#663399;
 	font-size: 100px
 	;
 }
@@ -19,4 +19,10 @@ slogan{font-style: italic;
 ul{text-align: center;
 font-weight: bold;
 list-style-type: none;
+}
+blockquote{font-style: italic;
+color: #0099CC;
+}
+h6{color:000000;
+font-weight: bold;
 }
