@@ -8,21 +8,25 @@ h1{
 	font-size: 100px
 	;
 }
+h3{font-family: impact,fantasy;
+	font-size: 40px
+	text-decoration:underline;
+}
 p{
 	color:#000000;
-	font-family: Helvetica , sans-serif;
-
+	font-family: papyrus, fantasy;
 }
+
 h5{font-style: italic;
 	color: #000000;
 }
 ul{text-align: center;
-font-weight: bold;
-list-style-type: none;
+	font-weight: bold;
+	list-style-type: none;
 }
-blockquote{font-style: italic;
-color: #0099CC;
-}
+
 h6{color:000000;
-font-weight: bold;
+	font-weight: bold;
+}
+a{text-align: justify;
 }
