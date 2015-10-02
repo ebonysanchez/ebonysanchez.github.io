@@ -3,8 +3,8 @@ body{
 	text-align: center;
 }
 
-h1{
-	color:#663399;
+h1{background-color: #ffff00;
+	color:#000000;
 	font-size: 100px
 	;
 }
