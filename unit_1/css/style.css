@@ -1,32 +1,48 @@
-body{
-	background-color:#ffffff;
-	text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Kranky);
+body {background-image: url(../images/sunflowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
 }
+header {
+    font-size: 30px;
+    background-color:000;
+    color:black;
+    text-align:center;
+    padding:5px; 
+}
+nav {
+    line-height:30px;
+    background-color:#FFCC00;
+    height:1500px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+section{text-align: justify;
+    font-family: tahoma;
+    width:350px;
+    float:left;
+    padding:10px;
+    background-color: transparent;
 
-h1{background-color: #ffff00;
-	color:#000000;
-	font-size: 100px
-	;
 }
-h3{font-family: impact,fantasy;
-	font-size: 40px
-	text-decoration:underline;
+footer {
+    background-color:yellow;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px; 
 }
-p{
-	color:#000000;
-	font-family: papyrus, fantasy;
+p{background-color: #FFCC00;
 }
+h4{font-family: 'Kranky', cursive;;
+text-align: center;
+}
+h2{background-color: #FFCC00;
+text-align: center;
+font-family: 'Poiret One', cursive;}
+ul{background-color: #FFCC00}
 
-h5{font-style: italic;
-	color: #000000;
-}
-ul{text-align: center;
-	font-weight: bold;
-	list-style-type: none;
-}
 
-h6{color:000000;
-	font-weight: bold;
-}
-a{text-align: justify;
-}
