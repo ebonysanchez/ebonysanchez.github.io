@@ -48,6 +48,7 @@ font-family: 'Poiret One', cursive;
 ul{background-color: #FFCC00
 }
 figcaption { 
+    background-color: #fff;
     display: block;
     font-size:15px;
 }
