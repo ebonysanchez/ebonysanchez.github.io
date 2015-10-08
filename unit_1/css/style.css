@@ -57,12 +57,11 @@ figure img {
     width:100%;
 }
 figcaption { 
-<<<<<<< HEAD
-    background-color: #fff;
+    background-color: #000;
+    color: white;
     display: block;
-=======
->>>>>>> origin/master
     font-size:15px;
+
 }
 
 
