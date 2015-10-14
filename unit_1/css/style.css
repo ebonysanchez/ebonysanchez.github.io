@@ -39,6 +39,8 @@ footer {
     padding:5px; 
 }
 p{
+    text-align: justify;
+    font-family: serif; 
     background-color: #FFCC00;
 }
 h4{
@@ -51,17 +53,24 @@ h2{
     font-family: 'Poiret One', cursive;
 }
 ul{
-    background-color: #FFCC00
+    list-style-type: none;
+    background-color: #FFCC00;
+   text-align: center;
 }
 figure img {
     width:100%;
 }
 figcaption { 
+    text-align: center;
     background-color: #000;
     color: white;
-    display: block;
     font-size:15px;
+    font-style: italic;
+    font-family: arial;
+}
+#beauty{
+    background: black;
+    font-family: fantasy;
 
 }
-
 
