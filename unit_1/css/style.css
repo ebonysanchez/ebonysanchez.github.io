@@ -2,27 +2,31 @@
 @import url(https://fonts.googleapis.com/css?family=Kranky);
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-    background-image: url(../images/sunflowers.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white;
     font-size:16px;
 }
 header {
+    background-image: url(../images/sunheader.png);
     font-size: 2em;
     background-color:#555;
     color:black;
     text-align:center;
-    padding:1em; 
+    padding:2em; 
 }
 nav {
-    background-color:#FFCC00;
+
+    font-size: 1.5em;
+    background-color:rgba(#555);
     width:24%;
     position:fixed;
     top:0;
     left:0;
     bottom:0;
     padding:2em; 
+    margin: 2em
 }
 main {
     float:right;
@@ -33,6 +37,7 @@ section{
     text-align: justify;
     font-family: tahoma;
     padding:4em;
+    margin: 2em;
 }
 footer {
     background-color:#FFCC00;
@@ -40,15 +45,14 @@ footer {
     clear:both;
     text-align:center;
     padding:2em; 
+    
 }
 p{
     text-align: justify;
     font-family: serif; 
 }
-h4{
-    font-family: 'Kranky', cursive;;
-    text-align: center;
-}
+
+
 h2{
     text-align: center;
     font-family: 'Poiret One', cursive;
@@ -57,19 +61,20 @@ ul{
     list-style-type: none;
     text-align: center;
 }
-figure img {
+figure img  {
+  
+    margin:0 auto;
     width:100%;
+    
+    
 }
 figcaption { 
+    margin: 1em;
     text-align: center;
     background-color: #000;
     color: #fff;
     font-size:1em;
     font-style: italic;
     font-family: arial, sans-serif;
+    padding: 1em;
 }
-#beauty{
-    font-family: fantasy;
-
-}
-
