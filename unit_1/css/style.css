@@ -16,17 +16,23 @@ header {
     text-align:center;
     padding:2em; 
 }
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
 nav {
 
-    font-size: 1.5em;
-    background-color:rgba(#555);
-    width:24%;
+    font-size: 1em;
+    background-color:rgba(255,255,0,0.3);
+    width:15em;
     position:fixed;
     top:0;
     left:0;
     bottom:0;
     padding:2em; 
     margin: 2em
+    height:10%;
 }
 main {
     float:right;
@@ -36,8 +42,8 @@ section{
     background:#FFCC00;
     text-align: justify;
     font-family: tahoma;
-    padding:4em;
-    margin: 2em;
+    padding:7em;
+    margin: 3em;
 }
 footer {
     background-color:#FFCC00;
@@ -48,7 +54,7 @@ footer {
     
 }
 p{
-    text-align: justify;
+    text-align: center;
     font-family: serif; 
 }
 
@@ -61,13 +67,21 @@ ul{
     list-style-type: none;
     text-align: center;
 }
-figure img  {
-  
-    margin:0 auto;
-    width:100%;
-    
-    
+figure img{
+  width: 100%;
+  float: right;
+  padding: 2em;
 }
+
+#music figure {
+    width: 100%
+}
+
+#entertainment figure{
+    width: 100%;
+}
+
+
 figcaption { 
     margin: 1em;
     text-align: center;
@@ -77,4 +91,8 @@ figcaption {
     font-style: italic;
     font-family: arial, sans-serif;
     padding: 1em;
+}
+
+.clearfix {
+    overflow: auto;
 }
