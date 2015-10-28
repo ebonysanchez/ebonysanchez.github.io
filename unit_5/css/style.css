@@ -1,16 +1,17 @@
 * { margin:0; padding:0; box-sizing:border-box; }
-body {
-    background-color: #fff;
+
+body{
+    background: #60A68F;
+    font-family: Raleway, sans-serif;
 }
 
-header {
-    background-color: rgba(255,0,0,0.3);
-    padding: 2em;
+header{
     text-align: center;
+    padding: 1em;
+    background: #ff7236;
 }
-
-nav {
-    background-color: rgb(255,51,51);
+nav{
+   background: #17618B;
 }
 
 nav a{
@@ -18,123 +19,89 @@ nav a{
     padding-right: 10px;
     text-decoration: none;
 }
+a:visited{
+    color: #fff;
+}
 
 nav ul{
     list-style-type: none;
     text-align: center;
-    margin: 5px;
 }
 
 nav li{
     display: inline;
 }
 
-
-section li{
-    line-height: 2em;
-}
-
- 
- a:hover{
+a:hover{
     background-color: #fff;
     color: #000;
     font-weight: bold;
 }
 
-h2{
-    font-size: 2.2em;
-    font-family: times, serif;
-    text-align: center;
-    background-color: rgba(255,0,0,0.3);
-    padding: .5em; 
-}
-   
-h4{
-    background-color: rgb(255,0,0);
-    font-family: times, serif;
-    font-size: 1.5em;
-    text-align: center;
-    padding: 1em;
-    margin-top: .3em;
-    margin-bottom: .5em;
-}
-
-#date{
-    color: #cc0000;
-}
-
-#experience{
-    text-align: center;
-    font-family: verdana,helvetica,sans-serif;
-    font-size: .9em;
-}
-
-#contact{
-    background-color: rgb(255,51,51);
-    text-align: center;
-    font-weight: bold;
-    margin: .5em 0;
-}
-
 section img{
     float: left;
     padding: 1em;
-    background-color: rgb(255,0,0);
+    width: 33.33%;
 }
 
-#about{
-    background-color: rgba(255,0,0,0.3);
-    font-size: .7em;
-    text-align:left;
-    line-height: 200%;
-    font-family: verdana,helvetica,sans-serif;
-
-
+h2{
+    background: #C82082;
+    color: #fff;
+    font-size: 2.2em;
+    font-family: times, serif;
+    text-align: center;
+    padding: .5em; 
 }
-#one{
-    background-color:#ff3333 ;
-    margin-left: .1em;
+
+section p {
+    margin-bottom: 1em;
+    background: #EBD645;
+}
+
+.wrapper{
+    padding:1em;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: .7em;
     
 }
 
-#two{
-    background-color: #fff;
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content:"";
+  clear: both;
+  height: 0;
 }
 
-#three{
-     font-family: verdana,helvetica,sans-serif;
-}
-
-#education{
+.date{
     text-align: center;
-    font-size: .8em;
-    font-family: verdana,helvetica,sans-serif;
+    font-weight: bolder;
 }
 
-
-#school{
-    background-color: rgba(255,0,0,0.3);
-    padding: .5em;
+.school{
+    text-align: center;
     font-weight: bold;
 }
 
-#work{
-    background-color: rgba(255,0,0,0.3);
-    padding: .5em;
-    font-weight: bold;
-    margin-top: .5em;
-}
-
-#facts{
+.facts{
     padding: .5em;
     list-style-type: square;
     list-style-position: inside;
-    text-indent: 3em;
     background-color: #fff;
 }
 
+.work{
+    text-align: center;
+    font-weight: bold;
+}
+
+
 footer{
-    background-color: rgba(255,0,0,0.3);
     font-family: georgia, "times new roman", serif;
     font-size: .80em;
     font-style: italic;
