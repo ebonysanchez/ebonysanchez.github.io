@@ -28,6 +28,12 @@ nav ul{
 nav li{
     display: inline;
 }
+
+
+section li{
+    line-height: 2em;
+}
+
  
  a:hover{
     background-color: #fff;
@@ -37,7 +43,7 @@ nav li{
 
 h2{
     font-size: 2.2em;
-    font-family: lucida , cursive;
+    font-family: times, serif;
     text-align: center;
     background-color: rgba(255,0,0,0.3);
     padding: .5em; 
@@ -45,6 +51,7 @@ h2{
    
 h4{
     background-color: rgb(255,0,0);
+    font-family: times, serif;
     font-size: 1.5em;
     text-align: center;
     padding: 1em;
@@ -58,7 +65,8 @@ h4{
 
 #experience{
     text-align: center;
-    float: left;
+    font-family: verdana,helvetica,sans-serif;
+    font-size: .9em;
 }
 
 #contact{
@@ -71,37 +79,36 @@ h4{
 section img{
     float: left;
     padding: 1em;
-    background-color: rgba(255,0,0,0.3);
-
+    background-color: rgb(255,0,0);
 }
 
 #about{
     background-color: rgba(255,0,0,0.3);
-    font-size: 1em;
+    font-size: .7em;
     text-align:left;
     line-height: 200%;
+    font-family: verdana,helvetica,sans-serif;
+
+
 }
 #one{
     background-color:#ff3333 ;
-    padding: .5em 2em;
-    font-family: verdana,helvetica,sans-serif;
-
-}
-#two{
-    padding: .5em;
-     font-family: verdana,helvetica,sans-serif;
-     background-color: #fff;
+    margin-left: .1em;
     
-
 }
-#three{
-    padding: .5em;
-     font-family: verdana,helvetica,sans-serif;
 
+#two{
+    background-color: #fff;
+}
+
+#three{
+     font-family: verdana,helvetica,sans-serif;
 }
 
 #education{
     text-align: center;
+    font-size: .8em;
+    font-family: verdana,helvetica,sans-serif;
 }
 
 
@@ -123,7 +130,7 @@ section img{
     list-style-type: square;
     list-style-position: inside;
     text-indent: 3em;
-   background-color: white;
+    background-color: #fff;
 }
 
 footer{
