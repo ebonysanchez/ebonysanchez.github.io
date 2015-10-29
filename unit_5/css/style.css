@@ -44,8 +44,9 @@ div img{
 }
 
 h1{
-    background-color: #EBD690;
+    background-color: #C8637B;
     font-size: 2em;
+    padding: 1em;
 }
 
 h2{
@@ -83,7 +84,7 @@ section p {
     text-align: center;
 }
 
-.clearfix:after {
+.clearfix {
   visibility: hidden;
   display: block;
   font-size: 0;
