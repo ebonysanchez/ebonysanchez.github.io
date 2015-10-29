@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body{
-    background: #60A68F;
+    background: #fff;
     font-family: Raleway, sans-serif;
 }
 
@@ -10,9 +10,7 @@ header{
     padding: 1em;
     background: #ff7236;
 }
-nav{
-   background: #17618B;
-}
+
 
 nav a{
     padding-left: 10px;
@@ -38,35 +36,48 @@ a:hover{
     font-weight: bold;
 }
 
-section img{
+div img{
     float: left;
     padding: 1em;
-    width: 33.33%;
+    clear: both;
+    width: 25%;
 }
 
 h2{
     background: #C82082;
     color: #fff;
     font-size: 2.2em;
-    font-family: times, serif;
+    font-family:Raleway, sans-serif;
     text-align: center;
     padding: .5em; 
 }
 
 section p {
-    margin-bottom: 1em;
     background: #EBD645;
 }
 
 .wrapper{
-    padding:1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 1.5em;
 }
+
+#one{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+
 
 .column {
     float: left;
     width: 33.33%;
     padding: .7em;
     
+}
+
+#funfacts{
+    text-align: center;
 }
 
 .clearfix:after {
@@ -80,12 +91,13 @@ section p {
 
 .date{
     text-align: center;
-    font-weight: bolder;
+    font-style: italic;
 }
 
 .school{
     text-align: center;
     font-weight: bold;
+    padding: 1em;
 }
 
 .facts{
@@ -93,11 +105,15 @@ section p {
     list-style-type: square;
     list-style-position: inside;
     background-color: #fff;
+    line-height: 1.5em;
 }
 
 .work{
     text-align: center;
     font-weight: bold;
+}
+li{
+    padding-bottom: 1.5em;
 }
 
 
@@ -107,4 +123,5 @@ footer{
     font-style: italic;
     text-align: center;
     padding: 1em;
+    background: #ff7236;
 }
