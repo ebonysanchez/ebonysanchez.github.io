@@ -8,7 +8,7 @@ body{
 header{
     text-align: center;
     padding: 1em;
-    background: #ff7236;
+    background: #FF8966;
 }
 
 
@@ -43,8 +43,13 @@ div img{
     width: 25%;
 }
 
+h1{
+    background-color: #EBD690;
+    font-size: 2em;
+}
+
 h2{
-    background: #C82082;
+    background: #C8637B;
     color: #fff;
     font-size: 2.2em;
     font-family:Raleway, sans-serif;
@@ -53,7 +58,7 @@ h2{
 }
 
 section p {
-    background: #EBD645;
+    background: #EBD690;
 }
 
 .wrapper{
@@ -66,8 +71,6 @@ section p {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
-
-
 
 .column {
     float: left;
@@ -92,6 +95,7 @@ section p {
 .date{
     text-align: center;
     font-style: italic;
+    padding-bottom: 1em;
 }
 
 .school{
@@ -111,11 +115,11 @@ section p {
 .work{
     text-align: center;
     font-weight: bold;
+    padding: 1em;
 }
 li{
     padding-bottom: 1.5em;
 }
-
 
 footer{
     font-family: georgia, "times new roman", serif;
@@ -123,5 +127,5 @@ footer{
     font-style: italic;
     text-align: center;
     padding: 1em;
-    background: #ff7236;
+    background: #FF8966;
 }
