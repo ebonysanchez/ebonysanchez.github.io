@@ -84,7 +84,7 @@ section p {
     text-align: center;
 }
 
-.clearfix {
+.clearfix:after {
   visibility: hidden;
   display: block;
   font-size: 0;
