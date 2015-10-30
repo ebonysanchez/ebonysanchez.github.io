@@ -85,6 +85,11 @@ section p {
     text-align: center;
 }
 
+#contact{
+    text-align: center;
+    font-size: 2em;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
