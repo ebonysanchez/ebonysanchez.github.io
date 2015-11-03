@@ -17,24 +17,29 @@ header {
     padding:2em; 
 }
 nav a{
-    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
+}
+a:visited{
+    color: #fff;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+}
+
+a:hover{
+    background-color: #fff;
     color: #000;
+    font-weight: bold;
 }
 
-nav {
-
-    font-size: 1em;
-    background-color:rgba(255,255,0,0.3);
-    width:15em;
-    position:fixed;
-    top:0;
-    left:0;
-    bottom:0;
-    padding:2em; 
-    margin: 2em
-    height:10%;
-}
 main {
     float:right;
     width:74%;
@@ -97,4 +102,3 @@ figcaption {
     font-family: arial, sans-serif;
     padding: 1em;
 }
-
