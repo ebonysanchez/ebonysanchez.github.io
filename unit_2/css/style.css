@@ -45,17 +45,17 @@ h2 {
   font-weight: bold;
   color: white;
   line-height: 2;
-  font-family: comicsansms,cursive;
+  font-family: comic,cursive;
 }
 
 h3 {
   font-size: 1.5em;
   text-align: center;
-  text-decoration: underline;
+  font-family: arial ,sans-serif;
 }
 
 h4{
-  font-family:arial,sansserif;
+  font-family:arial,sans-serif;
 }
 
 h5{
@@ -197,6 +197,7 @@ address{
 #questionanswer{
   float: left;
   width: 50%;
+  margin: 3.5em;
 }
 .question{
   text-align: left;
@@ -214,8 +215,8 @@ address{
 
 form{
   float: left;
-  margin:1em;
-  width: 400px;
+  margin:2em;
+  width:400px;
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
@@ -255,14 +256,6 @@ button{
   margin-left: .5em;
 }
 
-footer {
-  background-color: #000;
-  text-align: center;
-  padding: 1em;
-  color: #fff;
-}
-
-
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -270,4 +263,11 @@ footer {
   content: " ";
   clear: both;
   height: 0;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 1em;
+  color: #fff;
 }
