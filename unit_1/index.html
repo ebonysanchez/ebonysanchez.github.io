@@ -2,80 +2,113 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:200,100,900,600,800" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
   <title>Home</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
-
   <header>
-    <img src="images/reallogo.png">
     <nav>
+      <a href="index.html">Home</a>
       <a href="fashion.html">Fashion</a>
       <a href="beauty.html">Beauty</a>
       <a href="entertainment.html">Entertainment</a>
       <a href="music.html">Music</a>
-      <a href="http://www.poorandfly.com">Shop</a>
-    </nav>  
-  </header>
-  
-  <main>
-  <h1>Top Stories</h1>
-    <section id="fashion">
-      <h2>Fashion</h2>
-      <p>The Fall Months are in full swing and so is this years  Spring/summer 2016 fashion week click the <a href="fashion.html">link</a>to see what our favorite style were from fashion week, as well as other fashion tips and news.</p>
-      <figure>
-        <img src="images/olivier.jpg" alt="balmain"> 
-        <figcaption>Olivier Rousteing with his Balmain Army before walking the cat walk at this years Balmain Spring/Summer 2016 Fashion week show</figcaption>
-      </figure>
-      
-    </section>
-    <section id="beauty">
-      <h2>Beauty</h2>
-      <p>There is nothing more important than taking care of yourself . So that means having all the best products for your Skin , Hair and Nails . Click the <a href="beauty.html">link</a>  to find some of our favorite Beauty products as well as some torturials to help you on your way.</p>
-      <figure>
+    </nav> 
+    <img src="images/reallogo.png">
+ </header>
+  <div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+         <img src="images/olivier.jpg" alt="balmain">
+        <div class="carousel-caption">
+          <h3>Fashion</h3>
+          <p>Olivier Rousteing of Balmain Paris Releases his H&M collection this week check out our <a href="fashion.html"> Fashion</a> section to see his newest pieces </p>
+        </div>
+      </div>
+
+      <div class="item">
         <img src="images/halfface.jpg" alt="transformation make up">
-      </figure>
-        <figcaption>Video blogger Nikkie De Jager shows how makeup can dramatically alter your appearance with a half face makeup torturial
-        </figcaption>
-      
-    </section>
-    <section id="entertainment">
+        <div class="carousel-caption">
+          <h3>Beauty</h3>
+          <p>Video blogger Nikkie De Jager shows how makeup can dramatically alter your appearance with a half face makeup torturial check out this torturial in our  <a href="beauty.html">Beauty</a> section </p>
+        </div>
+      </div>
     
-      <h2>Entertainment</h2>
-      <p>Everyone loves a little Celebrity Gossip, Here at the Sweet life we are no different , click the <a href="entertainment.html">link</a>  to find out the latest celebrity gossip</p>
-      <figure>
-        <img src="images/cosmoKar.jpg" alt="kardasian cosmo cover">
-      </figure>
-        <figcaption> The Kardashian/Jenner Clan stir up some contorversy over their latest magazine cover </figcaption>
-      <figure>
-        <img src="images/lo.jpg">
-      </figure>
-        <figcaption> After being found unconcious in a Las Vegas Brothel from an apparent drug overdose , former Los Angeles Laker Lamar Odom wakes up and is now on the road to recovery</figcaption>
-    </section>
+      <div class="item">
+       <img src="images/lo.jpg" alt="Lamar Odom">
+        <div class="carousel-caption">
+          <h3>Entertainment</h3>
+          <p>Lamar Odom may be out of the woods but whats next for the pro baller? for more on this story check out our <a href="entertainment.html">Entertainment</a> section </p>
+        </div>
+      </div>
 
-    <section id="music">
-      <h2>Music</h2>
-      <p>Music is one of those things that bring everyone together and here at the Sweet life , music is apart of what makes life so sweet. click the <a href="music.html">link </a> to see whats new in music </p>
-      <figure>
-          <img src="images/thewnkhill.jpg">
-      </figure>
-          <figcaption> The Hills a song by artist The Weeknd has remand at number one on the billboards top 100 list for 2 weeks in a row</figcaption>
-      
-      <figure>
-          <img src="images/fettywap.jpg">
-      </figure>
-          <figcaption> Fetty wap is the first artist since the beatles to have 6 songs on the billboards hot 100 list , aswell as being a crossover artist going from hiphop charts to the top of the pop charts</figcaption>
-      <figure>
-          <img src="images/bemez.jpg">
-      </figure>
-          <figcaption>
-          Selen Gomez and Justin Beiber come together for a surprise collab , the song titled "Strong" was released on OVO records late saturday (10/17) night </figcaption>
-      
-    </section>
-    <section id="shop">
-      <a href="http://www.poorandfly.com">Shop Poor and Fly</a>
-    </section>
+      <div class="item">
+        <img src="images/vevoweek.jpg" alt="the hills">
+        <div class="carousel-caption">
+          <h3>Music</h3>
+          <p>The Weeknd Drops new video on Vevo check it out in our  <a href="music.html">Music</a> section</p>
+        </div>
+      </div>
+  
+    </div>
 
-  </main>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+  <main>
+    <div class="clearfix">
+     <section id="fashion">
+       <div class="column" id="column1">
+              <h2>Fashion</h2>
+              <p class="summary">  Who doesnt love fashion ? for more on whats new in style and fashion <a href="fashion.html">CLICK HERE</a>
+       </div>   
+     <section id="beauty">
+        <div class="column" id="column2">
+             <h2>Beauty</h2>
+            <p class="summary">There is nothing more important than taking care of yourself . So that means having all the best products for your Skin , Hair and Nails . <a href="beauty.html">CLICK HERE </a> to find some of our favorite Beauty products as well as some torturials to help you on your way.</p>
+      </div>
+     </section>
+     <section id="entertainment">
+       <div class="column" id="column3">
+            <h2>Entertainment</h2>
+            <p class="summary">Need a little celebrity gossip to keep your day going  <a href="entertainment.html"> CLICK HERE </a>  to find out the latest celebrity gossip</p>
+        </div>
+     </section>
+     <section id="Music">
+       <div class="column" id="column4">
+          <h2>Music</h2>
+          <p class="summary"> Looking for new music to listen to while at the gym or driving in your car?<a href="music.html"> CLICK HERE</a> to find the latest hits from your favorite artist </p>
+       </div>
+     </section>
+
+    </div>
+ </main>
   <footer>
     Copyright &#64; Sweetlife.com 2015
   </footer>

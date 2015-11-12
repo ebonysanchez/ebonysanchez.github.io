@@ -1,0 +1,273 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body{
+  background-color:#fff;
+  font-size: 16px;
+}
+
+header{
+    text-align: center;
+    padding: 1em;
+ }
+
+
+nav {
+  background: #338833;
+  margin-top: 1em;
+}
+
+nav a {
+  display: block;
+  float: left;
+  padding: 1em 2em;
+  color: #ffffff;
+  text-decoration: none;
+  border-right: .200em solid #fff;
+}
+
+nav a:hover { 
+  background-color: #338833; 
+}
+
+#running img{
+  width: 100%;
+}
+
+h1{
+  font-family: oswald;
+  font-size: 1.5em;
+  text-align: left;
+  color: #6d1971;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  line-height: 2;
+  font-family: comicsansms,cursive;
+}
+
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h4{
+  font-family:arial,sansserif;
+}
+
+h5{
+  font-size: 2em;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+p{
+  font-family: tahoma, sansserif;
+  text-align: center;
+}
+
+.italic{
+  font-style: italic;
+  font-size: .8em;
+  text-align:center;
+}
+.short{
+  font-family: arial,sansserif;
+  font-size: 1em;
+  color: #ffffff;
+}
+
+.caption{
+  font-family: tahoma, sansserif;
+}
+
+.article {
+  width: 24%;
+  float: left;
+  margin: .1em;
+  padding: 2em;
+}
+
+#readmore{
+  text-align: center;
+}
+
+#article1 {
+  background-color: #FF530D;
+  margin-left: .8em;
+}
+
+#article2 {
+  background-color: #E82C0C;
+}
+
+#article3 {
+  background-color: #E80C7A;
+}
+
+#article4{
+	background-color:#FF8966;
+}
+#article5 , #article6{
+  width: 48%;
+  float: left;
+}
+
+.column {
+  float:right;
+  width: 50%;
+  height: 100%;
+  padding: 2em;
+}
+
+.search {
+  list-style-image: url("../images/search.jpg");
+  list-style-position: inside;
+}
+
+.join {
+  list-style-image:  url("../images/join.jpg");
+  list-style-position: inside;
+}
+
+.faq {
+  list-style-image: url("../images/faq.jpg");
+  list-style-position: inside;
+}
+
+.resources {
+  list-style-image: url("../images/resource.jpg");
+  list-style-position: inside;
+}
+
+#column1 {
+  background-color: #ffffff;
+}
+
+#column2 {
+  background-color: #ffffff;
+} 
+#column4 , #column3 {
+  font-family: arial,sansserif;
+  font-size: 1em;
+}
+#column3{
+  padding-top: 6.5em;
+}
+.one{
+  list-style-image: url("../images/one.jpg");
+  list-style-position: inside;
+}
+.two{
+  list-style-image: url("../images/two.jpg");
+  list-style-position: inside;
+}
+.three{
+  list-style-image: url("../images/one.jpg");
+  list-style-position: inside;
+}
+.four{
+  list-style-image: url("../images/four.jpg");
+  list-style-position: inside;
+}
+.five{
+  list-style-image: url("../images/five.jpg");
+  list-style-position: inside;
+}
+.six{
+  list-style-image: url("../images/six.jpg");
+  list-style-position: inside;
+}
+
+.article img{
+  width: 100%
+}
+
+.container{
+  float:right;
+  width: 75%;
+  padding: 2em;
+}
+address{
+  text-align: left;
+}
+#questionanswer{
+  float: left;
+  width: 50%;
+}
+.question{
+  text-align: left;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+  margin-bottom: 1em;
+  color: #21B573;
+}
+.answer{
+  text-align: left;
+  font-style: italic;
+  margin-bottom: 1em;
+  font-family:  "Courier New", Courier, monospace;
+}
+
+form{
+  float: left;
+  margin:1em;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: #FCA619;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label{
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus{
+  border-color: #000;
+}
+
+textarea{
+  vertical-align: top;
+  height: 5em;
+  resize:vertical;
+}
+.button{
+  padding-left: 90px;
+}
+
+button{
+  margin-left: .5em;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 1em;
+  color: #fff;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}

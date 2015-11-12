@@ -2,12 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Kranky);
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-    
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: white;
+    background-color:#fff;
     font-size:16px;
 }
+
 header {
     background-image: url(../images/sunheader.png);
     font-size: 2em;
@@ -16,13 +16,22 @@ header {
     text-align:center;
     padding:2em; 
 }
+
+header img{
+    padding-bottom: 2em;
+}
+
 nav a{
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
 }
+a{
+    color: #5A7302;
+}
 a:visited{
-    color: #fff;
+    color: #000;
+    font-weight: bold;
 }
 
 nav ul{
@@ -40,65 +49,54 @@ a:hover{
     font-weight: bold;
 }
 
-main {
-    float:right;
-    width:74%;
+#main{
+    background-color: #000;
 }
-section{
-    background:#FFCC00;
-    text-align: justify;
-    font-family: tahoma;
-    padding:7em;
-    margin: 3em;
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content:"";
+  clear: both;
+  height: 0;
 }
-footer {
+
+h2{
+    color: #000;
+    font-size: 2.2em;
+    font-family:Raleway, sans-serif;
+    text-align: center;
+}
+
+
+.column {
+    float:left;
+    width: 25%;
+   padding: 1em;
+}
+
+.summary{
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+ .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+}
+
+.item a{
+    color: #fff;
+    font-weight: bolder;
+}
+
+footer{
     background-color:#FFCC00;
     color:black;
     clear:both;
     text-align:center;
     padding:2em; 
-    
-}
-p{
-    text-align: center;
-    font-family: serif; 
-}
-
-h1{
-    text-align: center;
-    background-color: rgba(255,255,0,0.3);
-}
-
-h2{
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-}
-ul{
-    list-style-type: none;
-    text-align: center;
-}
-figure img{
-  width: 100%;
-  float: right;
-  padding: 2em;
-}
-
-#music figure {
-    width: 100%
-}
-
-#entertainment figure{
-    width: 100%;
-}
-
-
-figcaption { 
-    margin: 1em;
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    font-size:1em;
-    font-style: italic;
-    font-family: arial, sans-serif;
-    padding: 1em;
 }
