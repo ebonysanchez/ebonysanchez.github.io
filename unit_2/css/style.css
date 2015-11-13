@@ -324,3 +324,95 @@ footer {
   padding: 1em;
   color: #fff;
 }
+
+@media only screen and (max-width:480px){
+ body{
+  font-size: 12px;
+ }
+ nav a {
+  float: none;
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding-top: 0;
+ }
+ #article1 ,#article2, #article3, #article4 {
+  float: none;
+  width: auto;
+ }
+ #article5 , #article6 {
+  float: none;
+  width: auto;
+}
+.readmore {
+  padding: 0;
+  margin: auto;
+
+}
+ #column1 , #column2 {
+  float: none;
+  width: auto;
+ }
+
+ #column3 , #column4{
+  float: none;
+  width: auto
+}
+
+form {
+  float: none;
+  width: auto;
+}
+.paxton{
+  display: none;
+}
+iframe{
+  display: none;
+}
+}
+@media only screen and (max-width:768px) {
+  body{
+  font-size: 14px;
+ }
+ nav a {
+  float: none;
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding-top: 0;
+ }
+ #article1 ,#article2, #article3, #article4 {
+  float: none;
+  width: auto;
+ }
+ #article5 , #article6 {
+  float: none;
+  width: auto;
+}
+.readmore {
+  padding: 0;
+  margin: auto;
+
+}
+ #column1 , #column2 {
+  float: none;
+  width: auto;
+ }
+
+ #column3 , #column4{
+  float: none;
+  width: auto
+}
+
+form {
+  float: none;
+  width: auto;
+}
+.paxton{
+  display: none;
+}
+iframe{
+ width: auto;
+}
+
+}
