@@ -10,16 +10,16 @@ header{
     padding: 1em;
  }
 
-
 nav {
-  background: #00CF2D;
+  background: #FCC248;
   margin-top: 1em;
+  width: 50%;
+  display: inline-block;
 }
 
 nav a {
-  display: block;
   float: left;
-  padding: 1em ;
+  padding: .5em ;
   color: #ffffff;
   text-decoration: none;
   border-right: .200em solid #fff;
@@ -319,7 +319,7 @@ button{
 }
 
 footer {
-  background-color: #00CF2D;
+  background-color: #FCC248;
   text-align: center;
   padding: 1em;
   color: #fff;
