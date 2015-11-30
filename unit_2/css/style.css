@@ -64,20 +64,6 @@ h5{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-.readmore{
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 1em;
-  font-weight: bolder;
-  text-decoration: none;
- float: right;
- width: 100%;
- }
-
-.story{
-  font-family:"Trebuchet MS", Helvetica, sans-serif; 
-  text-align: left;
-}
-
 #about1 , #about2{
   font-family:"Trebuchet MS", Helvetica, sans-serif;
   margin-top: .5em;
@@ -121,6 +107,7 @@ h5{
   float: right;
   padding: 1em;
 }
+
 #readmore{
   text-align: center;
 }
@@ -141,18 +128,14 @@ h5{
 	background-color:#D6004E;
 }
 
-#article5 , #article6{
+#article5 {
   width: 48%;
   float: left;
   padding: .5em;
 }
+
 #article5 img {
   width: 75%;
-  padding: 2em;
-  margin: 2.5em;
-}
-#article6 img{
-  width: 80%;
   padding: 2em;
   margin: 2.5em;
 }
@@ -323,10 +306,7 @@ h6{
   font-family: Impact, Charcoal, sans-serif;
   font-size: 1.5em;
 }
-.email{
-  width: 25%;
-  float: right;
-}
+
 
 .clearfix:after {
   visibility: hidden;
@@ -360,22 +340,19 @@ footer {
  #article1 ,#article2, #article3, #article4 {
   float: none;
   width: auto;
+ display: none;
  }
 
- #article5 , #article6 {
+ #article5 {
   float: none;
   width: auto;
 }
+
 #running img{
   display: none;
 }
 
-.readmore {
-  padding: 0;
-  margin: auto;
-}
-
- #column1 , #column2 {
+#column1 , #column2 {
   float: none;
   width: auto;
  }
@@ -385,16 +362,29 @@ footer {
   width: auto
 }
 
+#aboutus p{
+  margin: .5em;
+  padding: 1em;
+  text-align: center;
+}
+
+#aboutus img{
+  display: none;
+}
+
 form {
   float: none;
   width: auto;
 }
+
 .paxton{
   display: none;
 }
+
 iframe{
   display: none;
 }
+
 @media only screen and (max-width:768px) {
   body{
   font-size: 14px;
@@ -410,15 +400,11 @@ iframe{
   float: none;
   width: auto;
  }
- #article5 , #article6 {
+ #article5  {
   float: none;
   width: auto;
 }
-.readmore {
-  padding: 0;
-  margin: auto;
 
-}
  #column1 , #column2 {
   float: none;
   width: auto;
@@ -430,6 +416,10 @@ iframe{
 }
 #running img{
   float: none;
+}
+
+#aboutus p{
+  text-align: center;
 }
 
 form {
