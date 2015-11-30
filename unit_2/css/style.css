@@ -389,6 +389,7 @@ iframe{
   body{
   font-size: 14px;
  }
+
  nav a {
   float: none;
   display: block;
@@ -396,10 +397,12 @@ iframe{
   margin: 0;
   padding-top: 0;
  }
+
  #article1 ,#article2, #article3, #article4 {
   float: none;
   width: auto;
  }
+
  #article5  {
   float: none;
   width: auto;
@@ -414,22 +417,22 @@ iframe{
   float: none;
   width: auto
 }
+
 #running img{
   float: none;
-}
-
-#aboutus p{
-  text-align: center;
 }
 
 form {
   float: none;
   width: auto;
 }
+
 .paxton{
   display: none;
 }
+
 iframe{
  width: auto;
 }
+
 }
