@@ -30,6 +30,7 @@ nav a:hover {
 }
 
 #running img{
+  float: left;
   width: 100%;
 }
 
@@ -43,7 +44,6 @@ h1{
 h2 {
   font-size: 1.5em;
   font-weight: bold;
-  color: white;
   line-height: 2;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
@@ -52,12 +52,10 @@ h3 {
   font-size: 1.5em;
   text-align: center;
   font-family: "Arial Black", Gadget, sans-serif;
-  color: #FCC248;
 }
 
 h4{
   font-family:"Arial Black", Gadget, sans-serif;
-  color: #D6004E;
 }
 
 h5{
@@ -71,9 +69,8 @@ h5{
   font-size: 1em;
   font-weight: bolder;
   text-decoration: none;
-  text-align: right;
-  margin: 30em;
-}
+ float: right;
+ }
 
 .story{
   font-family:"Trebuchet MS", Helvetica, sans-serif; 
@@ -102,8 +99,7 @@ h5{
 
 .short{
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 1em;
-  color: #ffffff;
+  font-size: 1em;hbb  
 }
 
 .caption{
@@ -111,20 +107,25 @@ h5{
 }
 
 .article {
-  width: 24%;
+  width: 23.9%;
+  height: 100%;
   float: left;
+  padding: 1em;
   margin: .1em;
-  padding: 2em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  display: inline;
 }
 
+#readmore a{
+  float: right;
+  padding: 1em;
+}
 #readmore{
   text-align: center;
 }
 
 #article1 {
   background-color: #00CF2D;
-  margin-left: .8em;
 }
 
 #article2 {
@@ -142,6 +143,17 @@ h5{
 #article5 , #article6{
   width: 48%;
   float: left;
+  padding: .5em;
+}
+#article5 img {
+  width: 75%;
+  padding: 2em;
+  margin: 2.5em;
+}
+#article6 img{
+  width: 80%;
+  padding: 2em;
+  margin: 2.5em;
 }
 
 .column {
@@ -242,7 +254,10 @@ address{
   font-family:"Trebuchet MS", Helvetica, sans-serif; 
   font-weight: bold;
   margin: 1em .5em;
-  color: #007CD3;
+  color: #fCC248;
+  background-color: #000;
+  padding: 2em;
+
 }
 
 .answer{
@@ -250,6 +265,8 @@ address{
   font-weight: bolder;
   font-family:  "Trebuchet MS", Helvetica, sans-serif; 
   color: #000;
+  background-color: #fCC248;
+  padding: 1em;
 }
 
 form{
@@ -257,9 +274,8 @@ form{
   margin:2em;
   width:25%;
   padding: 1em;
-  border: .2em solid #00CF2D;
+  border: .2em solid #FCC248;
   border-radius: 1em;
-  background-color: #00CF2D;
 }
 
 form div + div {
@@ -300,14 +316,18 @@ button{
   float:left;
   width: 50%;
   padding: 2em;
-  border: .5em solid;
 }
 
-#help1, #help2 ,#help3{
-  font-family: Verdana, Geneva, sans-serif;
-  font-size:.9em;
-  text-align:center; 
+h6{
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 1.5em;
 }
+#directory{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
 
 .clearfix:after {
   visibility: hidden;
@@ -326,9 +346,10 @@ footer {
 }
 
 @media only screen and (max-width:480px){
- body{
+ body {
   font-size: 12px;
  }
+
  nav a {
   float: none;
   display: block;
@@ -336,19 +357,25 @@ footer {
   margin: 0;
   padding-top: 0;
  }
+
  #article1 ,#article2, #article3, #article4 {
   float: none;
   width: auto;
  }
+
  #article5 , #article6 {
   float: none;
   width: auto;
 }
+#running img{
+  display: none;
+}
+
 .readmore {
   padding: 0;
   margin: auto;
-
 }
+
  #column1 , #column2 {
   float: none;
   width: auto;
@@ -368,7 +395,6 @@ form {
 }
 iframe{
   display: none;
-}
 }
 @media only screen and (max-width:768px) {
   body{
@@ -402,6 +428,9 @@ iframe{
  #column3 , #column4{
   float: none;
   width: auto
+}
+#running img{
+  float: none;
 }
 
 form {
