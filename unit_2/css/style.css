@@ -70,6 +70,7 @@ h5{
   font-weight: bolder;
   text-decoration: none;
  float: right;
+ width: 100%;
  }
 
 .story{
@@ -272,7 +273,7 @@ address{
 form{
   float: left;
   margin:2em;
-  width:25%;
+  width:30%;
   padding: 1em;
   border: .2em solid #FCC248;
   border-radius: 1em;
@@ -322,12 +323,10 @@ h6{
   font-family: Impact, Charcoal, sans-serif;
   font-size: 1.5em;
 }
-#directory{
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-weight: bolder;
-  font-size: 1.5em;
+.email{
+  width: 25%;
+  float: right;
 }
-
 
 .clearfix:after {
   visibility: hidden;
