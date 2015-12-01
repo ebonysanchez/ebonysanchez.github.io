@@ -64,6 +64,12 @@ h5{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+#aboutus p{
+  text-align: center;
+  margin: 1em;
+  padding: 1em;
+}
+
 #about1 , #about2{
   font-family:"Trebuchet MS", Helvetica, sans-serif;
   margin-top: .5em;
