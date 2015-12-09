@@ -359,7 +359,7 @@ iframe{
   padding-top: 0;
  }
 
- #article1 ,#article2, #article3, #article4 {
+.square{
   float: none;
   width: auto;
  }
