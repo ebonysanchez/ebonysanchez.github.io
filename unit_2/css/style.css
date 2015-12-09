@@ -11,10 +11,10 @@ header{
  }
 
 nav {
-  background: #FCC248;
-  margin-top: 1em;
+  background: #FFD700;
+  margin-top: .5%;
   width: 50%;
-  display: inline-block;
+  float: right;
 }
 
 nav a {
@@ -22,17 +22,12 @@ nav a {
   padding: .5em ;
   color: #ffffff;
   text-decoration: none;
-  border-right: .200em solid #fff;
 }
 
 nav a:hover { 
   background-color: #000; 
 }
 
-#running img{
-  float: left;
-  width: 100%;
-}
 
 h1{
   font-family: "Arial Black", Gadget, sans-serif;
@@ -45,117 +40,74 @@ h2 {
   font-size: 1.5em;
   font-weight: bold;
   line-height: 2;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-h3 {
-  font-size: 1.5em;
   text-align: center;
-  font-family: "Arial Black", Gadget, sans-serif;
 }
 
-h4{
-  font-family:"Arial Black", Gadget, sans-serif;
-}
-
-h5{
-  font-size: 2em;
-  text-align: center;
+.quote{
+  font-size: 1.2em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-
-#aboutus p{
-  text-align: center;
-  margin: 1em;
-  padding: 1em;
-}
-
-#about1 , #about2{
-  font-family:"Trebuchet MS", Helvetica, sans-serif;
-  margin-top: .5em;
-  text-align: left;
-}
-
-#about3{
-  margin-top: 1em;
   text-align: center;
   font-style: italic;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #fff;
+  background-color:#FFD700; 
+
 }
 
-.italic{
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-style: italic;
-  font-size: .8em;
-  text-align:center;
+.running{
+  padding: 9.5em;
+  background-image: url(../images/runningkids.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.short{
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 1em;hbb  
-}
-
-.caption{
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-.article {
-  width: 23.9%;
-  height: 100%;
-  float: left;
-  padding: 1em;
-  margin: .1em;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  display: inline;
-}
-
-#readmore a{
+.square a{
   float: right;
   padding: 1em;
 }
 
-#readmore{
+.square p{
   text-align: center;
 }
 
-#article1 {
-  background-color: #00CF2D;
-}
-
-#article2 {
-  background-color: #007CD3;
-}
-
-#article3 {
-  background-color: #FCC248;
-}
-
-#article4{
-	background-color:#D6004E;
-}
-
-#article5 {
-  width: 48%;
+.square{
+  width: 24%;
+  max-height: 50%;
   float: left;
+  margin: .5%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   padding: .5em;
 }
 
-#article5 img {
-  width: 75%;
-  padding: 2em;
-  margin: 2.5em;
+#box1 {
+  background-color: #F43334;
+}
+
+#box2 {
+  background-color: #3ABDD9;
+}
+
+#box3 {
+  background-color: #FFA800;
+}
+
+#box4{
+  background-color:#A0C90B;
 }
 
 .column {
-  float:right;
+  float:left;
   width: 50%;
   height: 100%;
   padding: 2em;
 }
 
+#column1, #column2 {
+  background-color: #ffffff;
+}
+
 .search , .join , .faq , .resources{
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin-top: .5%;
+  margin-bottom: .5%;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   padding-left: 1em;
 }
@@ -180,8 +132,25 @@ h5{
   list-style-position: inside;
 }
 
-#column1, #column2 {
-  background-color: #ffffff;
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+.article{
+  text-align: center;
+  margin: .10%;
+  padding: 1em;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.italic{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-style: italic;
+  font-size: .8em;
+  text-align:center;
 }
 
 #column4 , #column3 {
@@ -189,7 +158,6 @@ h5{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 1em;
 }
-
 .one{
   list-style-image: url("../images/one.jpg");
   list-style-position: inside;
@@ -219,52 +187,12 @@ h5{
   padding-left: 1em;
 }
 
-.article img{
-  width: 100%
-}
-
-.container{
-  float:right;
-  width: 75%;
-  padding: 2em;
-}
-
-address{
-  text-align: left;
-}
-
-#questionanswer{
-  float: left;
-  width: 75%;
-  margin: 5em;
-}
-
-.question{
-  text-align: center;
-  font-family:"Trebuchet MS", Helvetica, sans-serif; 
-  font-weight: bold;
-  margin: 1em .5em;
-  color: #fCC248;
-  background-color: #000;
-  padding: 2em;
-
-}
-
-.answer{
-  text-align: center;
-  font-weight: bolder;
-  font-family:  "Trebuchet MS", Helvetica, sans-serif; 
-  color: #000;
-  background-color: #fCC248;
-  padding: 1em;
-}
-
 form{
   float: left;
   margin:2em;
   width:30%;
   padding: 1em;
-  border: .2em solid #FCC248;
+  border: .2em solid #FFD700;
   border-radius: 1em;
 }
 
@@ -302,17 +230,49 @@ button{
   margin-left: .5em;
 }
 
+h5{
+  font-size: 2em;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 .paxton{
   float:left;
   width: 50%;
   padding: 2em;
 }
 
-h6{
-  font-family: Impact, Charcoal, sans-serif;
-  font-size: 1.5em;
+#questionanswer{
+  float: left;
+  width: 75%;
+  margin: 5em;
 }
 
+.question{
+  text-align: center;
+  font-family:"Trebuchet MS", Helvetica, sans-serif; 
+  font-weight: bold;
+  margin: 1em .5em;
+  color: #fCC248;
+  background-color: #000;
+  padding: 2em;
+
+}
+
+.answer{
+  text-align: center;
+  font-weight: bolder;
+  font-family:  "Trebuchet MS", Helvetica, sans-serif; 
+  color: #000;
+  background-color: #fCC248;
+  padding: 1em;
+}
+
+.container{
+  float:right;
+  width: 75%;
+  padding: 2em;
+}
 
 .clearfix:after {
   visibility: hidden;
@@ -324,29 +284,28 @@ h6{
 }
 
 footer {
-  background-color: #FCC248;
+  background-color:#FFD700 ;
   text-align: center;
   padding: 1em;
   color: #fff;
 }
-
-@media only screen and (max-width:480px){
+@media only screen and (max-width:803px){
  body {
   font-size: 12px;
  }
 
- nav a {
+ nav {
   float: none;
   display: block;
   text-align: center;
-  margin: 0;
-  padding-top: 0;
  }
 
- #article1 ,#article2, #article3, #article4 {
+ .square {
   float: none;
-  width: auto;
- display: none;
+  width: 100%;
+ }
+ .square a{
+  display: none;
  }
 
  #article5 {
@@ -354,12 +313,8 @@ footer {
   width: auto;
 }
 
-#running img{
-  display: none;
-}
-
 #column1 , #column2 {
-  float: none;
+  float: left;
   width: auto;
  }
 
@@ -374,7 +329,7 @@ footer {
   text-align: center;
 }
 
-#aboutus img{
+#article1 img{
   display: none;
 }
 
@@ -391,7 +346,7 @@ iframe{
   display: none;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1000px) {
   body{
   font-size: 14px;
  }
@@ -424,9 +379,6 @@ iframe{
   width: auto
 }
 
-#running img{
-  float: none;
-}
 
 form {
   float: none;
@@ -441,4 +393,60 @@ iframe{
  width: auto;
 }
 
+}
+@media only screen and (max-width:320px){
+ body {
+  font-size: 12px;
+ }
+
+ nav {
+  float: none;
+  display: block;
+  text-align: center;
+ }
+
+ .square {
+  float: none;
+  width: 100%;
+ }
+ .square a{
+  display: none;
+ }
+
+ #article5 {
+  float: none;
+  width: auto;
+}
+
+#column1 , #column2 {
+  float: left;
+  width: auto;
+ }
+
+ #column3 , #column4{
+  float: none;
+  width: auto
+}
+
+#aboutus p{
+  margin: .5em;
+  padding: 1em;
+  text-align: center;
+}
+
+#article1 img{
+  display: none;
+}
+
+form {
+  float: none;
+  width: auto;
+}
+
+.paxton{
+  display: none;
+}
+
+iframe{
+  display: none;
 }
